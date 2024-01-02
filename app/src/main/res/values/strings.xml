@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">KASC Hall </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+
+    <string name="aboutclg">Welcome to KASC Hall! This is  unofficial application.</string>
+    <string name="aboutvtop">This app is made for all the Faculty  to book hall for their events   in college .If this application could help you by any means, please do share it with your friends &#129310;</string>
+    <string name="clg_address">Address :,GN Mills, Coimbatore - 641029. Tamil Nadu, INDIA</string>
+    <string name="clg_phone">Phone : +914222642095/ +914222642236/ +914222646588</string>
+    <string name="acre">250 acres of sprawling lush green Campus strategically located on the GN Mills  – Coimbatore, the two cleanest cities in the country</string>
+    <string name="caltech">CALTech – Collaborative and Active Learning through Technology</string>
+    <string name="ffcs"> faculty and pace to Book hall</string>
+    <string name="lab">Sophisticated laboratories actively engage students in acquiring practical knowledge of industrial standards</string>
+    <string name="vtop_website_link">https://www.kongunaducollege.ac.in/</string>
+    <string name="vityarthi_link"></string>
+
+
+    // headings
+    <string name="heading1">Book Halls Effortlessly</string>
+    <string name="heading2">HALL Database at Your Fingertips</string>
+    <string name="heading3">Stay Updated on college Events</string>
+    <string name="heading4">Access  Anytime, Anywhere</string>
+
+    //buttons
+    <string name="nextBtn">Next</string>
+    <string name="skipBtn">Skip</string>
+    <string name="getStarted">Get Started</string>
+
+    //subheading
+    <string name="subhd1">Effortless Hall Booking System</string>
+    <string name="subhd2">Explore and More</string>
+    <string name="subhd3">Stay Informed about College Events</string>
+    <string name="subhd4"></string>
+
+    //developer section
+    <string name="intro"></string>
+    <string name="skills">.</string>
+    <string name="queries"></string>
+    <string name="dev_name"></string>
+    <string name="gmaillink"></string>
+    <string name="linkedinlink"></string>
+    <string name="githublink"></string>
+    <string name="sasl">SCHOOL OF COMPUTER SCIENCE</string>
+    <string name="sbio">SCHOOL OF COMPUTER SCIENCE</string>
+    <string name="seee">SCHOOL OF COMPUTER SCIENCE</string>
+    <string name="smee">SCHOOL OF COMPUTER SCIENCE</string>
+    <string name="bund"></string>
+
+
+    <string name="stuCoord"></string>
+    <string name="facCoord"></string>
+    <string name="scse">SCHOOL OF COMPUTER SCIENCE</string>
+    <string name="seminar_hall">Seminar Hall</string>
+
+    <array name="Batch">
+        <item>Select Batch</item>
+        <item>2022-25</item>
+        <item>2021-24</item>
+        <item>2020-23</item>
+        <item>2019-22</item>
+    </array>
+
+
+
+
+    //themes
+    <string-array name="theme">
+        <item>Default</item>
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+
+    <style name="CustomAlertDialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="android:textViewStyle">@style/CustomAlertDialogTextView</item>
+    </style>
+
+    <style name="CustomAlertDialogTextView" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:fontFamily">@font/poppinsmedium</item>
+    </style>
+
+
+    <string name="hint_faculty_name">Faculty Name</string>
+    <string name="hint_faculty_id">Faculty ID</string>
+    <string name="hint_message">Message</string>
+    <string name="btn_send_message">Send message</string>
+
+
+        <!-- Hall names -->
+        <string name="hall_seminar">Seminar Hall</string>
+        <string name="hall_niveditha">Niveditha Hall</string>
+        <string name="hall_conference">Conference Hall</string>
+        <string name="hall_auditorium">Auditorium</string>
+
+        <!-- Hall descriptions -->
+        <string name="desc_seminar">Description: A spacious hall equipped with advanced audio-visual facilities. Suitable for seminars, workshops, and presentations.</string>
+        <string name="desc_niveditha">Description: A spacious hall equipped with advanced audio-visual facilities. Suitable for seminars, workshops, and presentations.</string>
+        <string name="desc_conference">Description: A spacious hall equipped with advanced audio-visual facilities. Suitable for seminars, workshops, and presentations.</string>
+        <string name="desc_auditorium">Description: A spacious hall equipped with advanced audio-visual facilities. Suitable for seminars, workshops, and presentations.</string>
+
+
+</resources>

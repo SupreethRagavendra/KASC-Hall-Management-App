@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.kasc" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/backgroundCol</item>
+        <item name="colorOnPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorPrimary</item>
+        <item name="colorSecondaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/txtcolor</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/appIconTint</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+    </style>
+    <style name="poppins_semibold" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/poppinsemibold</item>
+    </style>
+
+    <style name="poppins_bold" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/poppinsbold</item>
+    </style>
+
+    <style name="MenuGroupText" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="CustomAlertDialog" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="colorAccent">@color/light_blue</item>
+        <item name="android:textColorSecondary">@color/light_blue</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="fontFamily">@font/poppinsbold</item>
+        <item name="android:textSize">14sp</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "582459916675",
+    "project_id": "kasc-hall",
+    "storage_bucket": "kasc-hall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582459916675:android:efede1a2ebaad5f23ef6b6",
+        "android_client_info": {
+          "package_name": "com.kasc.hall"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARAYYXo6rn0Mc-S-OoRD4UeY4_Kx7-1qk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

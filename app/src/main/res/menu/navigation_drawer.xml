@@ -1,0 +1,65 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/navigation_websites"
+        android:layout_margin="15dp"
+        android:icon="@drawable/website_icon"
+        android:title="KASC Website"
+        tools:targetApi="o" />
+
+    <group
+        android:id="@+id/nav_language_group"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_language_english"
+            android:title="English"
+            android:checkable="true"
+            android:checked="true" />
+
+        <item
+            android:id="@+id/nav_language_tamil"
+            android:title="தமிழ்"
+            android:checkable="true" />
+    </group>
+
+    <item
+        android:id="@+id/navigation_book"
+        android:icon="@drawable/baseline_book"
+        android:title="Book" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout" />
+
+    <item
+        android:id="@+id/nav_exit"
+        android:title="Exit" />
+
+    <item
+        android:id="@+id/navigation_theme"
+        android:icon="@drawable/theme_icon"
+        android:title="Themes" />
+
+    <item
+        android:id="@+id/navigation_feeback"
+        android:icon="@drawable/baseline_feedback_24"
+        android:title="Feedback" />
+
+    <item
+        android:id="@+id/navigation_shareus"
+        android:icon="@drawable/share_icon"
+        android:title="Share" />
+
+    <item
+        android:id="@+id/navigation_booking"
+        android:icon="@drawable/share_icon"
+        android:title="My bookings" />
+
+    <item
+        android:id="@+id/navigation_developer"
+        android:icon="@drawable/android_dev_icon"
+        android:title="Developer" />
+
+</menu>

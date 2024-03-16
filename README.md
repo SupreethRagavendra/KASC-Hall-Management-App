@@ -69,7 +69,7 @@ Note: This is an open-source project, drop in a mail or a PR to contribute in th
 Clone this project using CLI 
 
 ```bash
-  git clone https://github.com/shreyxnsh/VTOP.git
+  git clone https://github.com/SupreethRagavendra/KASC-Hall-Management-App.git
 ```
 
 

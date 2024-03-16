@@ -27,10 +27,6 @@ Welcome to VTOP, the official college application for Vellore Institute of Techn
 
 
 
-
-<a href="https://ibb.co/qpmtZsH"><img src="https://i.ibb.co/vkL7tPN/8ff305fcb856f982e22e4da585abc9bd.jpg" alt="8ff305fcb856f982e22e4da585abc9bd" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>image share website</a><br />
-
-
 ## Libraries used :
 
  - [Firebase Database](https://github.com/firebase/firebase-android-sdk) 

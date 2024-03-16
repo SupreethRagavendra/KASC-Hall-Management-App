@@ -24,7 +24,6 @@ Welcome to VTOP, the official college application for Vellore Institute of Techn
 <img src="https://i.ibb.co/f9tYFQ8/web-build-20240229-pi6b-b0q-33-en-US-portrait-artifacts-2.png" width="30%"></img> 
 <img src="https://i.ibb.co/FKTdbST/web-build-20240229-pi6b-b0q-33-en-US-portrait-artifacts-3.png" width="30%"></img> 
 <img src="https://i.ibb.co/vkL7tPN/8ff305fcb856f982e22e4da585abc9bd.jpg" width="30%"></img> 
-
 <img src="https://i.ibb.co/chgd0mJ/web-build-20240229-hkyl-redfin-30-en-US-portrait-artifacts-4.png" width="30%"></img> 
 
 

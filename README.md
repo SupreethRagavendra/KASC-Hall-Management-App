@@ -1,4 +1,4 @@
-# 🧑‍🎓VTOP 
+# 🧑‍🎓KASC
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
@@ -34,8 +34,8 @@ Welcome to VTOP, the official college application for Vellore Institute of Techn
  - [Circle Image View](https://github.com/hdodenhof/CircleImageView)
  - [Picasso](https://github.com/square/picasso)
  - [Lottie](https://github.com/airbnb/lottie-android)
- -  [jsoap]_(https://github.com/jsoap)
- - [Meow Bottom Navigation](https://github.com/oneHamidreza/MeowBottomNavigation)
+ -  [jsoup library](https://github.com/jsoup)
+- [Meow Bottom Navigation](https://github.com/oneHamidreza/MeowBottomNavigation)
  
  ## General Queries
 

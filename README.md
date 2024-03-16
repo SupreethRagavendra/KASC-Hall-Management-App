@@ -41,7 +41,7 @@ Welcome to the College Hall Management App, an efficient solution for faculty me
 
 ### 🥱 What makes it different from the official KASC website?
 
-With the help of this app, users will be able to access information without any hassle! The official website has got various barriers for an user hence it is not user-friendly. But, VTOP-app is user-friendly! You often have to login the portal to gather information regarding new events Eliminating such issues is the major motive.
+With the help of this app, users will be able to access information without any hassle! The official website has got various barriers for an user hence it is not user-friendly. But, KASC-app is user-friendly! You often have to login the portal to gather information regarding new events Eliminating such issues is the major motive.
 
 Note: This is an open-source project, drop in a mail or a PR to contribute in this repository.
 

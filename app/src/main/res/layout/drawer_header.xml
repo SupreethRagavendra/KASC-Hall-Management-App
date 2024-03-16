@@ -13,7 +13,7 @@
         android:layout_centerInParent="true"
         android:textColor="@color/black"
         android:layout_marginBottom="10dp"
-        android:text="For all the KASC Faulcty."
+        android:text="For all the KASC Faculty."
         android:layout_alignParentBottom="true"/>
 
     <ImageView

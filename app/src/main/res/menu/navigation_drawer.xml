@@ -5,61 +5,69 @@
         android:id="@+id/navigation_websites"
         android:layout_margin="15dp"
         android:icon="@drawable/website_icon"
-        android:title="KASC Website"
+        android:title="@string/kasc_website"
         tools:targetApi="o" />
 
     <group
         android:id="@+id/nav_language_group"
+
         android:checkableBehavior="single">
 
         <item
             android:id="@+id/nav_language_english"
-            android:title="English"
+            android:icon="@drawable/language_translation_black_icon"
+
+            android:title="@string/english"
             android:checkable="true"
             android:checked="true" />
 
         <item
             android:id="@+id/nav_language_tamil"
-            android:title="தமிழ்"
+            android:title="@string/tamil"
+            android:icon="@drawable/language_translation_black_icon"
+
             android:checkable="true" />
     </group>
 
     <item
         android:id="@+id/navigation_book"
         android:icon="@drawable/baseline_book"
-        android:title="Book" />
+        android:title="@string/book2" />
+
+    <item
+        android:id="@+id/navigation_booking"
+        android:icon="@drawable/calendar_checkmark_icon"
+        android:title="@string/my_bookings" />
 
     <item
         android:id="@+id/nav_logout"
-        android:title="Logout" />
+        android:icon="@drawable/log_out"
+        android:title="@string/logout" />
 
     <item
         android:id="@+id/nav_exit"
-        android:title="Exit" />
+        android:icon="@drawable/exit"
+        android:title="@string/exit" />
 
     <item
         android:id="@+id/navigation_theme"
         android:icon="@drawable/theme_icon"
-        android:title="Themes" />
+        android:title="@string/themes" />
 
     <item
         android:id="@+id/navigation_feeback"
         android:icon="@drawable/baseline_feedback_24"
-        android:title="Feedback" />
+        android:title="@string/feedback" />
 
     <item
         android:id="@+id/navigation_shareus"
         android:icon="@drawable/share_icon"
-        android:title="Share" />
+        android:title="@string/share" />
 
-    <item
-        android:id="@+id/navigation_booking"
-        android:icon="@drawable/share_icon"
-        android:title="My bookings" />
 
     <item
         android:id="@+id/navigation_developer"
         android:icon="@drawable/android_dev_icon"
-        android:title="Developer" />
+        android:title="@string/developer" />
 
 </menu>

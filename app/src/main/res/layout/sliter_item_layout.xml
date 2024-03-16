@@ -10,7 +10,7 @@
         android:scaleType="fitXY"/>
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="10dp"
         android:background="@drawable/bg_overlay"
         android:layout_alignParentBottom="true"
         >
@@ -20,7 +20,7 @@
             android:layout_height="match_parent"
             android:text="kongunadu arts and science "
             android:textColor="#fff"
-            android:textSize="22sp"
+            android:textSize="10sp"
             android:textStyle="bold"
             android:gravity="center"/>
     </RelativeLayout>

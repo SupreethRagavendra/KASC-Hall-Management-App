@@ -6,7 +6,6 @@ import android.text.Html;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -15,13 +14,11 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.kasc.hall.MainActivity;
+import com.kasc.hall.Facultymanagement.LoginActivity;
 import com.kasc.hall.R;
-import com.kasc.hall.ui.home.HomeFragment;
 
 public class OnBoardingScreen extends AppCompatActivity {
 
-    //variables acc to xml
     ViewPager viewPager;
     LinearLayout dotsLayout;
     SliderAdapter sliderAdapter;
@@ -53,12 +50,7 @@ public class OnBoardingScreen extends AppCompatActivity {
         addDots(0);
         viewPager.addOnPageChangeListener(changeListener);
 
-        getStartedBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), MainActivity.class));
-            }
-        });
+        getStartedBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), LoginActivity.class)));
     }
 
 

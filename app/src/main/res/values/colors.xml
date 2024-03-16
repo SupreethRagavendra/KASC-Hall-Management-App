@@ -6,7 +6,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="iconColor">#000000</color>
+    <color name="iconColor">#4CAF50</color>
     <color name="textColor">#000000</color>
     <color name="btntext">#fff</color>
     <color name="grey">#828080</color>
@@ -22,7 +22,7 @@
     <color name="purple_blue">#6278FF</color>
     <color name="dark_blue">#13497b</color>
     <color name="light_blue">#D1E1FF</color>
-    <color name="appIconTint">#13497b</color>
+    <color name="appIconTint">#4CAF50</color>
     <color name="titleColor">#13497b</color>
     <color name="demo">#6c63fe</color>
     <color name="groupTitle">#000</color>

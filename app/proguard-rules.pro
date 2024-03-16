@@ -23,7 +23,7 @@
 -keep class com.kasc.hall.MainActivity
 -keep class com.kasc.hall.FullImageView
 -keep class com.kasc.hall.OfflineData
--keep class com.kasc.hall.SplashScreen
+-keep class com.kasc.hall.home.SplashScreen
 -keep class com.kasc.hall.ui.*
 -keep class com.kasc.hall.ebook.*
 -keep class com.kasc.hall.onboarding.*

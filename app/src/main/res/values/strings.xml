@@ -5,8 +5,8 @@
     <string name="close">Close</string>
 
     <string name="aboutclg">Welcome to KASC Hall! This is  unofficial application.</string>
-    <string name="aboutvtop">This app is made for all the Faculty  to book hall for their events   in college .If this application could help you by any means, please do share it with your friends &#129310;</string>
-    <string name="clg_address">Address :,GN Mills, Coimbatore - 641029. Tamil Nadu, INDIA</string>
+    <string name="aboutvtop">This app is made for all the Faculty  to book hall for their events   in college .If this application could help you by any means, please do share it with Other &#129310;</string>
+    <string name="clg_address">Address :GN Mills, Coimbatore - 641029. Tamil Nadu, INDIA</string>
     <string name="clg_phone">Phone : +914222642095/ +914222642236/ +914222646588</string>
     <string name="acre">250 acres of sprawling lush green Campus strategically located on the GN Mills  – Coimbatore, the two cleanest cities in the country</string>
     <string name="caltech">CALTech – Collaborative and Active Learning through Technology</string>
@@ -18,7 +18,7 @@
 
     // headings
     <string name="heading1">Book Halls Effortlessly</string>
-    <string name="heading2">HALL Database at Your Fingertips</string>
+    <string name="heading2">Hall Database at Your Fingertips</string>
     <string name="heading3">Stay Updated on college Events</string>
     <string name="heading4">Access  Anytime, Anywhere</string>
 
@@ -42,9 +42,7 @@
     <string name="linkedinlink"></string>
     <string name="githublink"></string>
     <string name="sasl">SCHOOL OF COMPUTER SCIENCE</string>
-    <string name="sbio">SCHOOL OF COMPUTER SCIENCE</string>
-    <string name="seee">SCHOOL OF COMPUTER SCIENCE</string>
-    <string name="smee">SCHOOL OF COMPUTER SCIENCE</string>
+
     <string name="bund"></string>
 
 
@@ -85,6 +83,20 @@
     <string name="hint_message">Message</string>
     <string name="btn_send_message">Send message</string>
 
+    <string name="todo">TODO</string>
+    <string name="select_year">Select Year :</string>
+    <string name="select_department">Select Department :</string>
+    <string name="select_date">Select date </string>
+    <string name="book">Book</string>
+    <string name="select_timeslot">Select timeslot :</string>
+
+    <string name="select_date2">Select Date</string>
+    <string name="event_name">Event Name:</string>
+
+    <string name="faculty_id">Faculty ID:</string>
+    <string name="faculty_name">Faculty Name:</string>
+    <string name="selected_hall">Selected Hall:</string>
+
 
         <!-- Hall names -->
         <string name="hall_seminar">Seminar Hall</string>
@@ -97,6 +109,36 @@
         <string name="desc_niveditha">Description: A spacious hall equipped with advanced audio-visual facilities. Suitable for seminars, workshops, and presentations.</string>
         <string name="desc_conference">Description: A spacious hall equipped with advanced audio-visual facilities. Suitable for seminars, workshops, and presentations.</string>
         <string name="desc_auditorium">Description: A spacious hall equipped with advanced audio-visual facilities. Suitable for seminars, workshops, and presentations.</string>
+    <string name="hello_i_m_ug_student_of_kasc_2021_2024">Hello! I\'m UG student of KASC (2021 -2024)</string>
+    <string name="_19_tamil_nadu_coimbatore">19 | Tamil Nadu | Coimbatore</string>
+    <string name="supreeth_ragavendra">Supreeth Ragavendra S</string>
+
+
+    <string name="edit_booking">Edit Booking</string>
+    <string name="edit_event_name">Edit Event Name</string>
+    <string name="edit_select_year">Select Year:</string>
+    <string name="edit_select_department">Select Department:</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+        <string name="kasc_website">KASC Website</string>
+        <string name="english">English</string>
+        <string name="tamil">Tamil</string>
+        <string name="book2">Book</string>
+        <string name="my_bookings">My Bookings</string>
+        <string name="logout">Logout</string>
+        <string name="exit">Exit</string>
+        <string name="themes">Themes</string>
+        <string name="feedback">Feedback</string>
+        <string name="share">Share</string>
+        <string name="developer">Developer</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="id">ID</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="new_user_click_here_to_register">New User? Click Here To Register</string>
 
 
 </resources>

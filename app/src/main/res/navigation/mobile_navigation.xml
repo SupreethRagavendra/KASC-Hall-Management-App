@@ -6,14 +6,14 @@
     app:startDestination="@+id/navigation_home">
 
     <fragment android:id="@+id/navigation_home"
-        android:name="com.kasc.hall.ui.home.HomeFragment"
+        android:name="com.kasc.hall.home.HomeFragment"
         android:label="Home"
         tools:layout="@layout/fragment_home"/>
 
   <fragment android:id="@+id/navigation_notice"
         android:name="com.kasc.hall.ui.notice.NoticeFragment"
         android:label="Book"
-        tools:layout="@layout/activity_book"/>
+        tools:layout="@layout/activity_choose_hall"/>
 
 
 

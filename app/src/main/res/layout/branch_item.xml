@@ -27,7 +27,7 @@
                 android:id="@+id/br_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="B.Tech Computer Science &amp; Engineering (BCE)"
+                android:text=""
                 android:textSize="15sp"
                 android:layout_marginLeft="@dimen/text_margin"
                 android:layout_gravity="center_horizontal"

@@ -6,7 +6,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.feedbacks.FeedbackActivity">
+    tools:context=".feedbacks.FeedbackActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue…&#xA;" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue…&#xA;" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/feedtoolbarCL"
@@ -33,12 +45,16 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="402dp"
+        android:layout_height="665dp"
         android:layout_below="@id/feedtoolbarCL"
-        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:orientation="vertical">
 
+        <!-- TextInputLayout for Name -->
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
@@ -49,18 +65,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
+                android:cursorVisible="false"
+                android:focusable="false"
                 android:gravity="start|top"
                 android:hint="@string/hint_faculty_name"
                 android:imeOptions="actionDone"
                 android:inputType="textMultiLine|textCapSentences"
+                android:longClickable="false"
+                android:text=""
                 android:textAlignment="viewStart"
                 android:textColor="@color/textColor"
-                android:textColorHint="@color/textColor"
-                android:cursorVisible="false"
-                android:focusable="false"
-                android:longClickable="false" />
+                android:textColorHint="@color/textColor" />
         </com.google.android.material.textfield.TextInputLayout>
 
+        <!-- TextInputLayout for ID -->
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
@@ -72,15 +90,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
+                android:cursorVisible="false"
+                android:focusable="false"
                 android:gravity="start|top"
                 android:hint="@string/hint_faculty_id"
                 android:imeOptions="actionDone"
                 android:inputType="textMultiLine|textCapSentences"
+                android:longClickable="false"
+                android:text=""
                 android:textAlignment="viewStart"
                 android:textColor="@color/textColor"
+
                 android:textColorHint="@color/textColor" />
         </com.google.android.material.textfield.TextInputLayout>
 
+        <!-- TextInputLayout for Message -->
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
@@ -90,7 +114,7 @@
             <EditText
                 android:id="@+id/feedmessage"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="144dp"
                 android:layout_centerHorizontal="true"
                 android:gravity="start|top"
                 android:hint="@string/hint_message"
@@ -102,6 +126,40 @@
                 android:textColorHint="@color/textColor" />
         </com.google.android.material.textfield.TextInputLayout>
 
+        <RadioGroup
+            android:id="@+id/radioGroupFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="How would you rate your experience?"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonVeryGood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Very Good" />
+
+            <RadioButton
+                android:id="@+id/radioButtonGood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Good" />
+
+            <RadioButton
+                android:id="@+id/radioButtonsatisfied"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Satisfied" />
+
+        </RadioGroup>
         <com.google.android.material.button.MaterialButton
             android:id="@+id/feedbtnsend"
             android:layout_width="250dp"
@@ -114,6 +172,16 @@
             android:textAllCaps="false"
             android:textColor="@color/white"
             app:cornerRadius="25dp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/feedbackAnimationView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            app:lottie_autoPlay="false"
+            app:lottie_loop="false"
+            app:lottie_rawRes="@raw/ani" />
 
     </LinearLayout>
 </RelativeLayout>

@@ -3,6 +3,21 @@
     <string name="hello_blank_fragment">ஹலோ காலியான உருவமைக்குக் கொண்ட பிராக்கடை</string>
     <string name="start">தொடங்கு</string>
     <string name="close">மூடு</string>
+    <string name="select_timeslot">நேரத்தை தேர்ந்தெடு :</string>
+
+
+        <string name="kasc_website">கேசி இணையதளம்</string>
+        <string name="english">ஆங்கிலம்</string>
+        <string name="tamil">தமிழ்</string>
+        <string name="book2">புத்தகம்</string>
+        <string name="my_bookings">எனது முன் சம்பவங்கள்</string>
+        <string name="logout">வெளியேறு</string>
+        <string name="exit">வெளியேறு</string>
+        <string name="themes">தீம்ஸ்</string>
+        <string name="feedback">கருத்து</string>
+        <string name="share">பகிர்ந்து கொள்ளுங்கள்</string>
+        <string name="developer">உள்ளாளர்</string>
+
 
     <string name="aboutclg">கேசி ஹால் குஸ்தாரா பயணம்! இது அதை அனைத்து பள்ளிகளுக்கும் அல்லது அந்தச் சேனலுக்கு உருவாக்கப்பட்டது.</string>
     <string name="aboutvtop">இந்த பயனர் வளர்ச்சிக் காரணமாக, அனைத்து பள்ளிகளுக்கும் அவர்கள் அவர்களது நிகழ்வுகளுக்கு கூட ஹால் மீது புதிய நிகழ்வுகளை புதுப்பிக்க முடியும். இந்த பயனர் தான் அந்த விளக்கமான அனுபவத்தை பகிர்ந்தார் &#129310;</string>
@@ -14,6 +29,29 @@
     <string name="lab">உரிமைக்கான நிர்வாகங்கள் பிரமுகமாக மாணவர்களை தொழில்நுட்ப நிர்வாக தரம் பெற உள்ளனர்</string>
     <string name="vtop_website_link">https://www.kongunaducollege.ac.in/</string>
     <string name="vityarthi_link"></string>
+
+
+
+    <string name="edit_booking">திருத்து</string>
+    <string name="edit_event_name">நிகழ்ச்சி பெயர்</string>
+    <string name="edit_select_year">வருடம் தேர்ந்தெடு:</string>
+    <string name="edit_select_department">துறை தேர்ந்தெடு:</string>
+    <string name="save">சேமி</string>
+    <string name="cancel">ரத்து</string>
+
+
+
+    <string name="selected_hall">தேர்ந்தெடுக்கப்பட்ட மண்டபம்:</string>
+        <string name="faculty_name">ஆசிரியர் பெயர்:</string>
+        <string name="faculty_id">ஆசிரியர் ஐடி:</string>
+        <string name="event_name">நிகழ்ச்சி பெயர்:</string>
+        <string name="select_year">ஆண்டுத் தேர்வு :</string>
+        <string name="select_department">துறை தேர்வு :</string>
+        <string name="select_date">தேதி தேர்வு :</string>
+        <string name="book">புத்தகம்</string>
+        <string name="select_date2">தேதியைத் தேர்வு செய்</string>
+
+
 
     <!-- headings -->
     <string name="heading1">ஹால்களை எளியவாக புகுபதிகை செய்து கொள்ளவும்</string>
@@ -41,10 +79,7 @@
     <string name="linkedinlink"></string>
     <string name="githublink"></string>
     <string name="sasl">கணினி அறிவியல் பள்ளி</string>
-    <string name="sbio">கணினி அறிவியல் பள்ளி</string>
-    <string name="seee">கணினி அறிவியல் பள்ளி</string>
-    <string name="smee">கணினி அறிவியல் பள்ளி</string>
-    <string name="bund"></string>
+       <string name="bund"></string>
 
     <string name="stuCoord"></string>
     <string name="facCoord"></string>
@@ -95,6 +130,12 @@
         <string name="desc_niveditha">விரிவான ஆடியோ-காணும் சாதனங்களுடன் அணுகலான மை. பாரவியல் பரிந்துரைகளுக்கு, பயிர்ச்சிகளுக்கு, மற்றும் கருத்தரங்களுக்கு அனுகூலமாகும்.</string>
         <string name="desc_conference">விரிவான ஆடியோ-காணும் சாதனங்களுடன் அணுகலான மை. பாரவியல் பரிந்துரைகளுக்கு, பயிர்ச்சிகளுக்கு, மற்றும் கருத்தரங்களுக்கு அனுகூலமாகும்.</string>
         <string name="desc_auditorium">விரிவான ஆடியோ-காணும் சாதனங்களுடன் அணுகலான மை. பாரவியல் பரிந்துரைகளுக்கு, பயிர்ச்சிகளுக்கு, மற்றும் கருத்தரங்களுக்கு அனுகூலமாகும்.</string>
+    <string name="hello_i_m_ug_student_of_kasc_2021_2024">வணக்கம்! நான் கேசிக் கல்லூரி (2021 -2024) பட்டத்தில் UG மாணவர்</string>
+    <string name="_19_tamil_nadu_coimbatore">19 | தமிழ்நாடு | கோயம்புத்தூர்</string>
+    <string name="supreeth_ragavendra">சுப்ரீத் ராகவேந்திரா</string>
+
+
+    <string name="todo">TODO</string>
 
 
 </resources>

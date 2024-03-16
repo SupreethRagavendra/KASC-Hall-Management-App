@@ -29,9 +29,12 @@ import com.etebarian.meowbottomnavigation.MeowBottomNavigation;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.messaging.FirebaseMessaging;
-import com.kasc.hall.ui.developers.Developers;
-import com.kasc.hall.ui.feedbacks.FeedbackActivity;
-import com.kasc.hall.ui.home.HomeFragment;
+import com.kasc.hall.Booking.ShowBookingHall;
+import com.kasc.hall.Booking.ShowBookings;
+import com.kasc.hall.feedbacks.FeedbackActivity;
+import com.kasc.hall.Facultymanagement.LoginActivity;
+import com.kasc.hall.home.Developers;
+import com.kasc.hall.home.HomeFragment;
 
 import java.util.Locale;
 import java.util.Objects;
@@ -44,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public NavigationView navigationView;
     public Uri uri;
     ConstraintLayout contentView;
-    static final float END_SCALE = 0.7f;
+    public static final float END_SCALE = 0.7f;
     public Toolbar toolbar;
 
     public SharedPreferences sharedPreferences;
@@ -96,21 +99,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         navigation();
         bottomNavigation();
 
-        //bottom nav code for onClickListener
+
         bottomNavigationView.setOnClickMenuListener(model -> {
-            switch (model.getId()) {
-                case 1:
-                    replace(new HomeFragment());
-                    break;
-                case 2:
-                    Intent bookingIntent = new Intent(MainActivity.this, HomeActivity.class);
-                    startActivity(bookingIntent);
-                    break;
+            if (model.getId() == 1) {
+                replace(new HomeFragment());
             }
             return null;
         });
 
-        //if user repeats to click on a certain fragment icon
         bottomNavigationView.setOnReselectListener(model -> {
             Toast.makeText(MainActivity.this, "Uh Oh! You're already here.", Toast.LENGTH_SHORT).show();
             return null;
@@ -121,9 +117,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private void bottomNavigation() {
         //bottom nav code for setting id and icons
         bottomNavigationView.add(new MeowBottomNavigation.Model(1, R.drawable.ic_baseline_home_24));
-        bottomNavigationView.add(new MeowBottomNavigation.Model(2, R.drawable.baseline_book));
 
-        // after starting app, show first fragment
         replace(new HomeFragment());
         bottomNavigationView.show(1, true);
 
@@ -138,12 +132,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     @SuppressLint("ResourceAsColor")
     private void animateNavigationView() {
-        //Add any color or remove it to use the default one!
-        //To make it transparent use Color.Transparent in side setScrimColor();
+
         drawerLayout.addDrawerListener(new DrawerLayout.SimpleDrawerListener() {
             @Override
             public void onDrawerSlide(View drawerView, float slideOffset) {
-                // Scale the View based on current slide offset
                 final float diffScaledOffset = slideOffset * (1 - END_SCALE);
                 final float offsetScale = 1 - diffScaledOffset;
                 contentView.setScaleX(offsetScale);
@@ -190,7 +182,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 showdialog();
                 break;
             case R.id.nav_exit:
-                // Exit the app
                 finishAffinity();
                 break;
             case R.id.nav_logout:
@@ -202,7 +193,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 setLocale("en");
                 break;
             case R.id.navigation_book:
-                startActivity(new Intent(this, HomeActivity.class));
+                startActivity(new Intent(this, ShowBookingHall.class));
                 break;
 
             case R.id.navigation_booking:
@@ -239,11 +230,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     private void viewBookings() {
 
-        // Retrieve facultyName and facultyId from SharedPreferences
         SharedPreferences preferences = getSharedPreferences("FacultyPrefs", MODE_PRIVATE);
         String facultyId = preferences.getString("facultyId", "");
 
-        Intent intent = new Intent(MainActivity.this, UserBookingsActivity.class);
+        Intent intent = new Intent(MainActivity.this, ShowBookings.class);
         intent.putExtra("facultyId", facultyId);
         startActivity(intent);
     }
@@ -319,14 +309,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         // Slide up the navigation view
         navigationView.animate().translationY(-navigationView.getHeight()).setDuration(500);
 
-        // Delay for 5 seconds and then navigate to LoginActivity
         new Handler().postDelayed(() -> {
-            // Start LoginActivity after the delay
             startActivity(new Intent(MainActivity.this, LoginActivity.class));
 
-            // Optionally, you can finish the current activity
             finish();
-        }, 5000); // 5000 milliseconds (5 seconds)
+        }, 3000);
     }
 
 

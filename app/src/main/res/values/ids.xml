@@ -9,4 +9,8 @@
     <item name="textViewStartTime" type="id" />
     <item name="textViewSelectedStartTime" type="id" />
     <item name="textViewEndTime" type="id" />
+    <item name="btnEdit" type="id" />
+    <item name="lottieAnimationView" type="id" />
+    <item name="feedbackmenuView" type="id" />
+
 </resources>

@@ -2,6 +2,7 @@
 <com.google.android.material.card.MaterialCardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/booking"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -11,11 +12,13 @@
     app:cardElevation="15dp"
     android:backgroundTint="@color/colorPrimary">
 
+
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="402dp"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="10dp">
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -25,10 +28,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsmedium"
                 android:text="Event Name:  "
                 android:textColor="@color/white"
-                android:textSize="16sp"
-                android:fontFamily="@font/poppinsmedium" />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/textEventName"
@@ -37,6 +40,13 @@
                 android:text="Event Name"
                 android:textSize="16sp"
                 android:textStyle="bold" />
+            <Spinner
+                android:id="@+id/hallNameSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/colorPrimary" />
         </LinearLayout>
 
 
@@ -48,10 +58,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsmedium"
                 android:text="Hall Name:  "
                 android:textColor="@color/white"
-                android:textSize="16sp"
-                android:fontFamily="@font/poppinsmedium" />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/textHallName"
@@ -69,10 +79,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsmedium"
                 android:text="Date:  "
                 android:textColor="@color/white"
-                android:textSize="16sp"
-                android:fontFamily="@font/poppinsmedium" />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/textDate"
@@ -90,10 +100,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsmedium"
                 android:text="Time Slots:  "
                 android:textColor="@color/white"
-                android:textSize="16sp"
-                android:fontFamily="@font/poppinsmedium" />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/textTimeSlot"
@@ -101,6 +111,31 @@
                 android:layout_height="wrap_content"
                 android:text="Time Slot"
                 android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="Edit"
+
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/deleteButton"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:textColor="@color/white"
+                tools:ignore="DuplicateIds" />
         </LinearLayout>
 
     </LinearLayout>

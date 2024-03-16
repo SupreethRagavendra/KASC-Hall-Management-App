@@ -6,17 +6,14 @@ Welcome to VTOP, the official college application for Vellore Institute of Techn
 
 ## Features
 
-- 👨‍🏫 Faculty Database : Now, you can search amongst faculties and get their data within seconds. 
 
-- 🔔 Notices Section : No need to open Gmail! Get all the notices on your fingertips. 
+- Multilingual Support: English and Tamil languages are supported for wider accessibility.
+- Home Screen Functionality* Access essential college info and menu options conveniently.
+- Visit Main Website: Direct link provided for comprehensive details on the main website.
+- Feedback System: Continuous improvement enabled through feedback system.
+- Dark and Light Themes:Choose between dark and light themes based on user preference for comfort.
+- Instant Events Updates: Stay informed with the latest events directly fetched from the main website via web scraping.
 
-- 📖 E-books : Stuck in finding pdf? No worries, we've got you covered. Access all the learning material on VTOP
-
-- ➗ CGPA Calculator : Got your marks, but where do you stand? Know your GPA / CGPA by entering your marks and course credits.
-
-- 🥳 Events : It was a great event! What about the memories? View all the event images in a single click!
-
-- :shushing_face: Offline Capabilities : You dont have to wait until the data gets loaded everytime you open the app. VTOP comes with offline capabilities where users just need to load the data once and view it even if there is no internet access.
 
 ## Screenshots
 
@@ -33,14 +30,11 @@ Welcome to VTOP, the official college application for Vellore Institute of Techn
 ## Libraries used :
 
  - [Firebase Database](https://github.com/firebase/firebase-android-sdk) 
- - [Firebase Messaging](https://github.com/firebase/firebase-android-sdk)
  - [Auto Images Slider](https://github.com/smarteist/Android-Image-Slider)
  - [Circle Image View](https://github.com/hdodenhof/CircleImageView)
  - [Picasso](https://github.com/square/picasso)
- - [Android-pdf-Viewer](https://github.com/barteksc/AndroidPdfViewer)
- - [Shimmer](https://github.com/facebook/shimmer-android)
- - [Zoomage](https://github.com/jsibbold/zoomage)
  - [Lottie](https://github.com/airbnb/lottie-android)
+ -  [jsoap]_(https://github.com/jsoap)
  - [Meow Bottom Navigation](https://github.com/oneHamidreza/MeowBottomNavigation)
  
  ## General Queries
@@ -71,14 +65,24 @@ Clone this project using CLI
 ```bash
   git clone https://github.com/SupreethRagavendra/KASC-Hall-Management-App.git
 ```
-
-
 ## MIT License
 
-Copyright (c) 2023 shreyxnsh
+Copyright (c) 2024 SupreethRagavendra
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

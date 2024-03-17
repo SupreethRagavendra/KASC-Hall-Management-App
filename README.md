@@ -31,8 +31,6 @@ Welcome to the College Hall Management App, an efficient solution for faculty me
 
  - [Firebase Database](https://github.com/firebase/firebase-android-sdk) 
  - [Auto Images Slider](https://github.com/smarteist/Android-Image-Slider)
- - [Circle Image View](https://github.com/hdodenhof/CircleImageView)
- - [Picasso](https://github.com/square/picasso)
  - [Lottie](https://github.com/airbnb/lottie-android)
  -  [jsoup](https://github.com/jsoup)
 - [Meow Bottom Navigation](https://github.com/oneHamidreza/MeowBottomNavigation)

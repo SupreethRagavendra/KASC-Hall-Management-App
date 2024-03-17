@@ -26,7 +26,8 @@
             android:layout_width="220dp"
             android:layout_height="495dp"
             android:background="@color/colorAccent"
-            android:src="@drawable/kongunadu_logo_final" />
+            android:src="@drawable/kongunadu_logo_final"
+            android:contentDescription="TODO" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <TextView
@@ -35,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="25dp"
         android:fontFamily="@font/poppinsmedium"
-        android:text="Developed by Supreeth Ragvendra "
+        android:text="@string/developed_by_supreeth_ragvendra"
         android:textColor="@color/appIconTint"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"

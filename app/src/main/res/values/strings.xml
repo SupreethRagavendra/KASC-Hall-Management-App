@@ -5,14 +5,14 @@
     <string name="close">Close</string>
 
     <string name="aboutclg">Welcome to KASC Hall! This is  unofficial application.</string>
-    <string name="aboutvtop">This app is made for all the Faculty  to book hall for their events   in college .If this application could help you by any means, please do share it with Other &#129310;</string>
+    <string name="aboutKASC">This app is made for all the Faculty  to book hall for their events   in college .If this application could help you by any means, please do share it with Other &#129310;</string>
     <string name="clg_address">Address :GN Mills, Coimbatore - 641029. Tamil Nadu, INDIA</string>
     <string name="clg_phone">Phone : +914222642095/ +914222642236/ +914222646588</string>
     <string name="acre">250 acres of sprawling lush green Campus strategically located on the GN Mills  – Coimbatore, the two cleanest cities in the country</string>
     <string name="caltech">CALTech – Collaborative and Active Learning through Technology</string>
     <string name="ffcs"> faculty and pace to Book hall</string>
     <string name="lab">Sophisticated laboratories actively engage students in acquiring practical knowledge of industrial standards</string>
-    <string name="vtop_website_link">https://www.kongunaducollege.ac.in/</string>
+    <string name="KASC_website_link">https://www.kongunaducollege.ac.in/</string>
     <string name="vityarthi_link"></string>
 
 
@@ -100,15 +100,19 @@
 
         <!-- Hall names -->
         <string name="hall_seminar">Seminar Hall</string>
-        <string name="hall_niveditha">Niveditha Hall</string>
+        <string name="hall_niveditha">Nivedita Hall</string>
         <string name="hall_conference">Conference Hall</string>
         <string name="hall_auditorium">Auditorium</string>
 
         <!-- Hall descriptions -->
-        <string name="desc_seminar">Description: A spacious hall equipped with advanced audio-visual facilities. Suitable for seminars, workshops, and presentations.</string>
-        <string name="desc_niveditha">Description: A spacious hall equipped with advanced audio-visual facilities. Suitable for seminars, workshops, and presentations.</string>
-        <string name="desc_conference">Description: A spacious hall equipped with advanced audio-visual facilities. Suitable for seminars, workshops, and presentations.</string>
-        <string name="desc_auditorium">Description: A spacious hall equipped with advanced audio-visual facilities. Suitable for seminars, workshops, and presentations.</string>
+    <string name="desc_seminar">Description: A cozy hall ideal for small capacity meetings, equipped with advanced audio-visual facilities. Suitable for intimate seminars, workshops, and presentations.</string>
+
+    <string name="desc_niveditha">Description: The expansive  Sister Nivedita Hall, designed for grand events, offers ample space and top-notch audio-visual facilities. Ideal for large conferences, seminars, and presentations.</string>
+
+    <string name="desc_conference">Description: The Conference Hall, with its moderate capacity and advanced audio-visual setup, provides a professional environment for medium-sized meetings, seminars, and workshops.</string>
+
+    <string name="desc_auditorium">Description: The spacious Auditorium, equipped with state-of-the-art audio-visual technology, is perfect for hosting large-scale conferences, seminars, and presentations.</string>
+
     <string name="hello_i_m_ug_student_of_kasc_2021_2024">Hello! I\'m UG student of KASC (2021 -2024)</string>
     <string name="_19_tamil_nadu_coimbatore">19 | Tamil Nadu | Coimbatore</string>
     <string name="supreeth_ragavendra">Supreeth Ragavendra S</string>
@@ -131,14 +135,30 @@
         <string name="themes">Themes</string>
         <string name="feedback">Feedback</string>
         <string name="share">Share</string>
-        <string name="developer">Developer</string>
+
     <string name="sign_up">Sign Up</string>
-    <string name="email">Email</string>
+
     <string name="id">ID</string>
     <string name="name">Name</string>
-    <string name="password">Password</string>
     <string name="confirm_password">Confirm Password</string>
+    <string name="sign_in">Sign in</string>
+
+
+    <string name="for_any_queries_contact_me_through_the_following_links">For any queries,contact me through the following links</string>
+    <string name="developer">Developer</string>
     <string name="new_user_click_here_to_register">New User? Click Here To Register</string>
+
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="next_button">Next Button</string>
+    <string name="developed_by_supreeth_ragvendra">Developed by Supreeth Ragvendra</string>
+    <string name="for_all_the_kasc_faculty">For all the KASC Faculty.</string>
+    <string name="hello_kasc_family">Hello KASC family!</string>
+    <string name="latest_events"><![CDATA[Latest events ->]]></string>
+    <string name="schools">Schools :</string>
+    <string name="contact_details">Contact Details :</string>
+    <string name="kongunadu_arts_and_science">Kongunadu Arts And Science</string>
 
 
 </resources>

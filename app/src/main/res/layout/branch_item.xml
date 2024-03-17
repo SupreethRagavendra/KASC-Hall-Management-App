@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:backgroundTint="#f2f7f9"
@@ -16,12 +17,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables,UselessParent">
             <ImageView
                 android:id="@+id/br_icon"
                 android:layout_width="32dp"
                 android:layout_height="32dp"
-                android:src="@drawable/cse_icon"/>
+                android:src="@drawable/cse_icon"
+                android:contentDescription="TODO" />
 
             <TextView
                 android:id="@+id/br_title"
@@ -29,7 +32,7 @@
                 android:layout_height="wrap_content"
                 android:text=""
                 android:textSize="15sp"
-                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_marginStart="@dimen/text_margin"
                 android:layout_gravity="center_horizontal"
                 android:textColor="@color/dark_blue"
                 android:fontFamily="@font/poppinsbold"/>

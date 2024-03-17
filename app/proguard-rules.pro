@@ -20,13 +20,7 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep class com.kasc.hall.MainActivity
--keep class com.kasc.hall.FullImageView
--keep class com.kasc.hall.OfflineData
--keep class com.kasc.hall.home.SplashScreen
--keep class com.kasc.hall.ui.*
--keep class com.kasc.hall.ebook.*
--keep class com.kasc.hall.onboarding.*
+
 
 -keep class com.firebase.** { *; }
 -keep class org.apache.** { *; }

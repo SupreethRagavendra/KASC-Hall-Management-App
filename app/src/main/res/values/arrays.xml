@@ -3,7 +3,10 @@
         <item>CT</item>
         <item>IT</item>
         <item>CS</item>
-        <item>BSC</item>
+        <item>BCA</item>
+        <item>B.COM</item>
+        <item>B.COM CA</item>
+
     </string-array>
 
     <string-array name="year_options">
@@ -14,13 +17,16 @@
 
 
 
-        <!-- ... Other resources ... -->
-
         <string-array name="time_slot_options">
             <item>9:00 AM - 10:00 AM</item>
             <item>10:00 AM - 11:00 AM</item>
             <item>11:00 AM - 12:00 PM</item>
-            <!-- Add more time slots as needed -->
+            <item>12:00 PM - 1:00 PM</item>
+            <item>2:00 PM - 3:00 PM</item>
+            <item>3:00 PM - 4:00 PM</item>
+            <item>5:00 PM - 6:00 PM</item>
+
+
         </string-array>
     </resources>
 

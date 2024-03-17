@@ -43,6 +43,10 @@ public class HomeFragment extends Fragment {
         branchList = new ArrayList<>();
         branchList.add(new BranchModel(R.drawable.cse_icon, "Bsc Computer Technology (Bsc CT)"));
         branchList.add(new BranchModel(R.drawable.cse_icon, "Bsc Information Technology (Bsc IT) "));
+        branchList.add(new BranchModel(R.drawable.cse_icon, "Bsc Computer Science  (Bsc CS) "));
+        branchList.add(new BranchModel(R.drawable.cse_icon, "Bachelors's in Computer Application.(BCA) "));
+
+
 
         // to be added
 
@@ -86,8 +90,8 @@ public class HomeFragment extends Fragment {
 
         SliderView sliderView = view.findViewById(R.id.sliderView);
         sliderView.setSliderAdapter(new SliderViewAdapter<SliderViewHolder>() {
-            private final int[] images = {R.drawable.main, R.drawable.e2, R.drawable.stu};
-            private final String[] text = {"Kongunadu Arts And Science, Coimbatore", "KASC Entrance", "Students at KASC"};
+            private final int[] images = {R.drawable.main, R.drawable.e2, R.drawable.stu,R.drawable.banner02,R.drawable.banner04,R.drawable.banner06_0,R.drawable.banner_new06,R.drawable.banner_new07};
+            private final String[] text = {"Kongunadu Arts And Science, Coimbatore", "KASC Entrance", "Students at KASC", "","","","",""};
 
             @Override
             public SliderViewHolder onCreateViewHolder(ViewGroup parent) {

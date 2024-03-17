@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:background="@color/backgroundCol"
-                app:title="choose a venue"
+                app:title="Choose a venue"
 
                 app:titleTextColor="@color/titleColor"
                 />
@@ -82,10 +82,10 @@
 
             <ImageView
                 android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_height="130dp"
                 android:contentDescription="TODO"
                 android:scaleType="fitXY"
-                android:src="@drawable/auditorium"
+                android:src="@drawable/co"
                 tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck,ImageContrastCheck" />
         </LinearLayout>
 
@@ -133,10 +133,10 @@
 
             <ImageView
                 android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_height="130dp"
                 android:contentDescription="TODO"
                 android:scaleType="fitXY"
-                android:src="@drawable/auditorium"
+                android:src="@drawable/au"
                 tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck" />
         </LinearLayout>
 
@@ -187,9 +187,9 @@
 
             <ImageView
                 android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_height="130dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/auditorium"
+                android:src="@drawable/co"
                 tools:ignore="ContentDescription,ImageContrastCheck" />
         </LinearLayout>
 
@@ -213,7 +213,7 @@
 
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical"
                 android:padding="5dp">
@@ -238,9 +238,9 @@
 
             <ImageView
                 android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_height="130dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/auditorium"
+                android:src="@drawable/audi"
                 tools:ignore="ContentDescription,ImageContrastCheck" />
         </LinearLayout>
 

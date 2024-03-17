@@ -131,7 +131,7 @@
                             android:layout_marginTop="15dp"
                             android:fontFamily="@font/poppinsmedium"
                             android:textSize="14sp"
-                            android:text="For any queries,contact me through the following links:"
+                            android:text="@string/for_any_queries_contact_me_through_the_following_links"
                             android:textColor="#FFFFFF" />
 
                     </LinearLayout>

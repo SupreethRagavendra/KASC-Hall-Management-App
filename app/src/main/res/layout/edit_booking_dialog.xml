@@ -85,8 +85,8 @@
             android:layout_weight="1"
             android:background="@color/colorPrimary"
             android:text="@string/save"
-            android:textColor="@android:color/white"
-            />
+            android:textColor="#4CAF50"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/cancelButton"
@@ -94,10 +94,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/cancel"
-            android:textColor="@android:color/white"
+            android:textColor="#4CAF50"
             android:background="@color/colorPrimary"
             tools:ignore="ButtonOrder"
-          />
+            style="?android:attr/buttonBarButtonStyle" />
 
     </LinearLayout>
 </LinearLayout>

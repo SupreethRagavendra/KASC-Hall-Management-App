@@ -208,15 +208,23 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     Intent shareIntent = new Intent(Intent.ACTION_SEND);
                     shareIntent.setType("text/plain");
                     shareIntent.putExtra(Intent.EXTRA_SUBJECT, "KASC");
-                    shareIntent.putExtra(Intent.EXTRA_TEXT, "Download KASC - KASC Coimbatore and take charge of your college experience : " + "#");
-                    startActivity(Intent.createChooser(shareIntent, "Share via :"));
+                    shareIntent.putExtra(Intent.EXTRA_TEXT, "Download KASC - KASC Coimbatore and take charge of your college experience: " + "https://apkfab.com/kasc-hall/com.kasc.hall/apk");
+
+                    Intent secondShareIntent = new Intent(Intent.ACTION_SEND);
+                    secondShareIntent.setType("text/plain");
+                    secondShareIntent.putExtra(Intent.EXTRA_SUBJECT, "KASC");
+                    secondShareIntent.putExtra(Intent.EXTRA_TEXT, "Download KASC from another source: ");
+
+                    Intent chooserIntent = Intent.createChooser(shareIntent, "Share via:");
+                    chooserIntent.putExtra(Intent.EXTRA_INITIAL_INTENTS, new Intent[]{secondShareIntent});
+                    startActivity(chooserIntent);
                 } catch (Exception e) {
                     Toast.makeText(this, "Unable to share the application", Toast.LENGTH_SHORT).show();
                 }
 
                 break;
             case R.id.navigation_websites:
-                uri = Uri.parse(getString(R.string.vtop_website_link));
+                uri = Uri.parse(getString(R.string.KASC_website_link));
                 intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
                 break;

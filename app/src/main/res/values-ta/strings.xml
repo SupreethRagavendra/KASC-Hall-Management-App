@@ -20,14 +20,14 @@
 
 
     <string name="aboutclg">கேசி ஹால் குஸ்தாரா பயணம்! இது அதை அனைத்து பள்ளிகளுக்கும் அல்லது அந்தச் சேனலுக்கு உருவாக்கப்பட்டது.</string>
-    <string name="aboutvtop">இந்த பயனர் வளர்ச்சிக் காரணமாக, அனைத்து பள்ளிகளுக்கும் அவர்கள் அவர்களது நிகழ்வுகளுக்கு கூட ஹால் மீது புதிய நிகழ்வுகளை புதுப்பிக்க முடியும். இந்த பயனர் தான் அந்த விளக்கமான அனுபவத்தை பகிர்ந்தார் &#129310;</string>
+    <string name="aboutKASC">இந்த பயனர் வளர்ச்சிக் காரணமாக, அனைத்து பள்ளிகளுக்கும் அவர்கள் அவர்களது நிகழ்வுகளுக்கு கூட ஹால் மீது புதிய நிகழ்வுகளை புதுப்பிக்க முடியும். இந்த பயனர் தான் அந்த விளக்கமான அனுபவத்தை பகிர்ந்தார் &#129310;</string>
     <string name="clg_address">முகவரம்: ஜி.என் மில்ஸ், கோயம்புத்தூர் - 641029. தமிழ் நாடு, இந்தியா</string>
     <string name="clg_phone">தொலைபேசி: +914222642095/ +914222642236/ +914222646588</string>
     <string name="acre">250 ஏக்கர்கள் பரப்பிய பசுமையான கேம்பஸ் ஜி.என் மில்ஸ்  – கோயம்புத்தூர், இந்தியாவில் குடியுரிமையான நகரங்களில் ஒன்றாகும்</string>
     <string name="caltech">CALTech – தொழில்நுட்பத் தகுதியுடைமை மற்றும் சொந்தப் பயிர்பிரதி</string>
     <string name="ffcs">பள்ளியில் ஹால் குறியீடுக்கு பரிசு</string>
     <string name="lab">உரிமைக்கான நிர்வாகங்கள் பிரமுகமாக மாணவர்களை தொழில்நுட்ப நிர்வாக தரம் பெற உள்ளனர்</string>
-    <string name="vtop_website_link">https://www.kongunaducollege.ac.in/</string>
+    <string name="KASC_website_link">https://www.kongunaducollege.ac.in/</string>
     <string name="vityarthi_link"></string>
 
 
@@ -125,15 +125,25 @@
         <string name="hall_conference">காரியாலய மையம்</string>
         <string name="hall_auditorium">கேடிடோரியம்</string>
 
-        <!-- Hall descriptions -->
-        <string name="desc_seminar">விரிவான ஆடியோ-காணும் சாதனங்களுடன் அணுகலான மை. பாரவியல் பரிந்துரைகளுக்கு, பயிர்ச்சிகளுக்கு, மற்றும் கருத்தரங்களுக்கு அனுகூலமாகும்.</string>
-        <string name="desc_niveditha">விரிவான ஆடியோ-காணும் சாதனங்களுடன் அணுகலான மை. பாரவியல் பரிந்துரைகளுக்கு, பயிர்ச்சிகளுக்கு, மற்றும் கருத்தரங்களுக்கு அனுகூலமாகும்.</string>
-        <string name="desc_conference">விரிவான ஆடியோ-காணும் சாதனங்களுடன் அணுகலான மை. பாரவியல் பரிந்துரைகளுக்கு, பயிர்ச்சிகளுக்கு, மற்றும் கருத்தரங்களுக்கு அனுகூலமாகும்.</string>
-        <string name="desc_auditorium">விரிவான ஆடியோ-காணும் சாதனங்களுடன் அணுகலான மை. பாரவியல் பரிந்துரைகளுக்கு, பயிர்ச்சிகளுக்கு, மற்றும் கருத்தரங்களுக்கு அனுகூலமாகும்.</string>
+
+
     <string name="hello_i_m_ug_student_of_kasc_2021_2024">வணக்கம்! நான் கேசிக் கல்லூரி (2021 -2024) பட்டத்தில் UG மாணவர்</string>
     <string name="_19_tamil_nadu_coimbatore">19 | தமிழ்நாடு | கோயம்புத்தூர்</string>
     <string name="supreeth_ragavendra">சுப்ரீத் ராகவேந்திரா</string>
 
+
+
+
+
+
+    <string name="for_any_queries_contact_me_through_the_following_links">எந்த கேள்விகளுக்கும், பின்வரும் இணையங்களில் எனதுக்கு தொடர்பு கொள்ளவும்</string>
+
+
+    <string name="developed_by_supreeth_ragvendra">உற்பத்திசெய்தது சுப்ரீத் ராக்வேந்திராவிடம்</string>
+    <string name="latest_events"><![CDATA[சமீபத்திய நிகழ்வுகள் ->]]></string>
+    <string name="schools">பள்ளிகள் :</string>
+    <string name="contact_details">தொடர்பு விபரங்கள் :</string>
+    <string name="kongunadu_arts_and_science">கொங்குநாடு கலைக்கல்வி மற்றும் அறிவியல்</string>
 
     <string name="todo">TODO</string>
 

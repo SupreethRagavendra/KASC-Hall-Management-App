@@ -12,13 +12,10 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Continue…&#xA;" />
+        android:text="Continue…&#xA;"
+        tools:ignore="HardcodedText" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Continue…&#xA;" />
+
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/feedtoolbarCL"
@@ -75,7 +72,8 @@
                 android:text=""
                 android:textAlignment="viewStart"
                 android:textColor="@color/textColor"
-                android:textColorHint="@color/textColor" />
+                android:textColorHint="#78909C"
+                android:autofillHints="" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <!-- TextInputLayout for ID -->
@@ -101,7 +99,9 @@
                 android:textAlignment="viewStart"
                 android:textColor="@color/textColor"
 
-                android:textColorHint="@color/textColor" />
+                android:textColorHint="#78909C"
+                tools:ignore="TextContrastCheck,TextFields"
+                android:autofillHints="" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <!-- TextInputLayout for Message -->
@@ -123,43 +123,11 @@
                 android:minHeight="250dp"
                 android:textAlignment="viewStart"
                 android:textColor="@color/textColor"
-                android:textColorHint="@color/textColor" />
+                android:textColorHint="#78909C"
+                android:autofillHints="" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <RadioGroup
-            android:id="@+id/radioGroupFeedback"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:text="How would you rate your experience?"
-                android:textColor="@android:color/black"
-                android:textSize="16sp" />
-
-            <RadioButton
-                android:id="@+id/radioButtonVeryGood"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Very Good" />
-
-            <RadioButton
-                android:id="@+id/radioButtonGood"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Good" />
-
-            <RadioButton
-                android:id="@+id/radioButtonsatisfied"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Satisfied" />
-
-        </RadioGroup>
         <com.google.android.material.button.MaterialButton
             android:id="@+id/feedbtnsend"
             android:layout_width="250dp"

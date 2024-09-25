@@ -51,6 +51,13 @@ Clone this project using CLI
 ```bash
   git clone https://github.com/SupreethRagavendra/KASC-Hall-Management-App.git
 ```
+
+```bash
+Navigate to the project directory:
+
+
+cd task-manager
+```
 ## MIT License
 
 Copyright (c) 2024 SupreethRagavendra
